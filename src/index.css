@@ -1,13 +1,57 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  display: flex;
+  margin: 40px auto;
+  padding: 15px;
+  max-width: 600px;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+}
+.navbar h1{
+  color: rgb(19, 19, 204);
+  
+}
+
+.navbar .links{
+  margin:  0 auto;
+} 
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 5px;
+}
+.navbar a:hover{
+  color: blue;
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blogs previews / list */
+.blog-preview{
+  padding: 10px 15px;
+  margin: 20px 0;
+  border-bottom: 1px solid whitesmoke;
+}
+.blog-preview:hover{
+  box-shadow: 1px 1px 3px rgb(66, 65, 65);
+}
+.blog-preview h3{
+  font-size: 20px;
+  color: red;
+  margin-bottom: 6px;
+}
+.blog-preview #author{
+  font-size: 12px;
+  padding: 10px;
+  color: blue;
+  font-style: italic;
 }
