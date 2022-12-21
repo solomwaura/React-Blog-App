@@ -1,0 +1,22 @@
+{
+    "blogs" : [
+        {
+            "title":"Web 3",
+            "body":"lorem ipsum",
+            "author":"prime",
+            "id":1
+        },
+        {
+            "title":"Metaverse",
+            "body":"lorem and open AA",
+            "author":"Optimus",
+            "id":2
+        },
+        {
+            "title":"Binance",
+            "body":"lorem ipsum",
+            "author":"prime",
+            "id":3
+        }
+    ]
+}
